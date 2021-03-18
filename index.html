@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <table style="align-content: center;">
+        <tr>
+            <th>B</th>
+            <th>I</th>
+            <th>N</th>
+            <th>G</th>
+            <th>O</th>
+        </tr>
+        <tr>
+            <td id="1"></td>
+            <td id="2"></td>
+            <td id="3"></td>
+            <td id="4"></td>
+            <td id="5"></td>
+        </tr>
+        <tr>
+            <td id="6"></td>
+            <td id="7"></td>
+            <td id="8"></td>
+            <td id="9"></td>
+            <td id="10"></td>
+        </tr>
+    </table>
+    <input type="button" onclick="getRandom()" value="Get New Card for 1$">
+        
+   
+    
+</body>
+</html>
+
+<script>
+    window.onload = function() {
+        for (i=0;i<=76;i++){
+            let num = Math.floor(Math.random()*75)+1;
+            document.getElementById(i+1).innerHTML = num
+        }
+      
+
+
+
+        
+    } 
+    let getRandom = function(){
+        for (i=0;i<=76;i++){
+            let num = Math.floor(Math.random()*75)+1;
+            document.getElementById(i+1).innerHTML = num
+        }
+        
+    }
+    
+</script>
