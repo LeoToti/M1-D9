@@ -38,11 +38,18 @@
 </html>
 
 <script>
+    let falsy = false
     window.onload = function() {
+        if (falsy=== false){
         for (i=0;i<=76;i++){
             let num = Math.floor(Math.random()*75)+1;
             document.getElementById(i+1).innerHTML = num
+            
         }
+
+            
+        }
+        falsy = true
       
 
 

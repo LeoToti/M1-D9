@@ -36,4 +36,11 @@ tbody tr.active-row {
     color: #009879;
 }
 
+input {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    border-radius: 5px;
+}
+
   
