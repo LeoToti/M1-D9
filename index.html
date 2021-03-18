@@ -52,16 +52,23 @@
         falsy = true
       
 
-
-
-        
     } 
+
     let getRandom = function(){
-        for (i=0;i<=76;i++){
-            let num = Math.floor(Math.random()*75)+1;
-            document.getElementById(i+1).innerHTML = num
-        }
+        let num = Math.floor(Math.random()*75)+1;
+        let tdList = document.getElementsByTagName("td")
+
+        console.log(tdList.innerHTML[1])
+
         
+
+
     }
+
+
+    
+    
+
+            
     
 </script>
